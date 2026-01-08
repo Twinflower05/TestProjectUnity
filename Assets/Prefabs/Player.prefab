@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4925159188684762354}
   - component: {fileID: 4284968395770103298}
-  - component: {fileID: 1623243165817613521}
   - component: {fileID: 1978721413150099166}
   m_Layer: 0
   m_Name: Main Camera
@@ -44,7 +43,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.17702028, g: 0.3207547, b: 0.18411334, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -85,14 +84,6 @@ Camera:
   m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &1623243165817613521
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4408789067500532048}
-  m_Enabled: 1
 --- !u!114 &1978721413150099166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153,6 +144,7 @@ GameObject:
   - component: {fileID: 685369702977045333}
   - component: {fileID: 5193962595672256776}
   - component: {fileID: 6757967246579824160}
+  - component: {fileID: 7631058270635182763}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -421,3 +413,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a9aba71ab09944aafdebca30effb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!81 &7631058270635182763
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8555079599561759179}
+  m_Enabled: 1

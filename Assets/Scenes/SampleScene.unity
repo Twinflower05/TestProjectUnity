@@ -527,6 +527,10 @@ PrefabInstance:
       propertyPath: onTriggerEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1246961588}
+    - target: {fileID: 9138094829247955093, guid: 2db4ffc7179f60249bc94a3c56e98746, type: 3}
+      propertyPath: onTriggerEnter.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1677,14 +1681,79 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9138094829247955093, guid: 2db4ffc7179f60249bc94a3c56e98746, type: 3}
+      propertyPath: onTriggerEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9138094829247955093, guid: 2db4ffc7179f60249bc94a3c56e98746, type: 3}
       propertyPath: onTriggerEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 307384521}
+    - target: {fileID: 9138094829247955093, guid: 2db4ffc7179f60249bc94a3c56e98746, type: 3}
+      propertyPath: onTriggerEnter.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2db4ffc7179f60249bc94a3c56e98746, type: 3}
+--- !u!1001 &5906868820301038831
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3722397191995051680, guid: 00e2b9b62ad8a2240a4a3e90cda8ccfc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3722397191995051680, guid: 00e2b9b62ad8a2240a4a3e90cda8ccfc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 3722397191995051680, guid: 00e2b9b62ad8a2240a4a3e90cda8ccfc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.010699029
+      objectReference: {fileID: 0}
+    - target: {fileID: 3722397191995051680, guid: 00e2b9b62ad8a2240a4a3e90cda8ccfc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3722397191995051680, guid: 00e2b9b62ad8a2240a4a3e90cda8ccfc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3722397191995051680, guid: 00e2b9b62ad8a2240a4a3e90cda8ccfc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3722397191995051680, guid: 00e2b9b62ad8a2240a4a3e90cda8ccfc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3722397191995051680, guid: 00e2b9b62ad8a2240a4a3e90cda8ccfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3722397191995051680, guid: 00e2b9b62ad8a2240a4a3e90cda8ccfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3722397191995051680, guid: 00e2b9b62ad8a2240a4a3e90cda8ccfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6830600842320838146, guid: 00e2b9b62ad8a2240a4a3e90cda8ccfc, type: 3}
+      propertyPath: m_Name
+      value: Audiothing
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 00e2b9b62ad8a2240a4a3e90cda8ccfc, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1695,3 +1764,4 @@ SceneRoots:
   - {fileID: 5032353562626261249}
   - {fileID: 816064833}
   - {fileID: 2106009840072064664}
+  - {fileID: 5906868820301038831}
